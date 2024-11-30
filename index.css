@@ -1,0 +1,75 @@
+img {
+    display: inline;
+    vertical-align: middle; /* or top, bottom, or baseline depending on your needs */
+}
+
+#Home, #Menu, #Contact, #whatsNew {
+    width: 20px;
+    height: 30px;
+    font-size: 50px;
+    margin: 10px;
+    position: relative;  /* Add position relative */
+    left: 600px;  /* Shift left by 600px */
+    border: 2px solid black;
+    border-radius: 28px;
+}
+
+#Home {
+    color: white;
+    background-color: #00704A;
+}
+
+#section {
+    font-size: 100px;
+}
+
+.highlight {
+    color: #00704A;
+}
+
+#learnmore {
+    color: white;
+    background-color: #00704A;
+    font-size: medium;
+    border-radius: 25px;
+}
+
+#container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: space-around; /* Space evenly around the content */
+}
+
+#first {
+    flex: 0.6; 
+    max-width: 60%; 
+}
+
+#second {
+    flex: 0.4; 
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    position: relative;
+}
+
+#product {
+    width: 275px; 
+    height: auto; 
+}
+
+h1 {
+    border-radius: 45px;
+    position: relative;
+    text-align: center; 
+    margin-top: 50px;
+}
+
+#drinks1, #drinks2, #drinks3 {
+    background-color: #00704A;
+    height: 100px; 
+    width: auto; 
+    margin: 10px; /* Add space around each thumbnail */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the thumbnails */
+    border-radius: 8px; /* Optional: Add rounded corners to the thumbnails */
+}
